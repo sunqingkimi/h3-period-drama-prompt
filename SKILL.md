@@ -18,10 +18,12 @@ aliases: [古装短剧提示词, h3-period, 朝堂短剧h3]
 ## 范本风格 DNA（必须内化）
 
 ### 1. 视觉风格
-- **介质**：真人实拍，电影感古装剧（cinematic live-action period drama）
+- **介质**：AI 生成超写实数字人古装剧（AI-generated photorealistic digital-human period drama），非真人实拍
+- **AI 特征**：面部光滑无毛孔、眼神略空洞、表情偏僵硬、手指可能畸形、场景细节偶有逻辑错误；整体处于"恐怖谷"区间，超写实但一眼可辨 AI 生成
 - **色调**：皇宫场景暖金色调（红柱、金饰、烛光），军营场景冷灰青色调（铠甲、地图、铁盔），高对比度，暗部浓郁
 - **服装编码**：明黄龙袍=皇帝；浅灰/素色官服=青年直臣；深紫/深色官服=权臣反派；金属铠甲=武将；深色圆领袍+黑帽=内侍
 - **场景库**：皇宫大殿（龙椅、百官分列、红柱金纹）、偏殿书房（卷轴地图、烛台、奏折）、宫殿外石阶（红墙、日光）、军营大帐（羊皮地图、铠甲、火把）
+- **H3 风格声明**：`AI-generated photorealistic digital-human period drama, cinematic lighting, high contrast`（不要写 live-action）
 
 ### 2. 剧情五段式结构（范本拆解）
 
@@ -157,7 +159,7 @@ Step 7: 自检 → 结构/运镜/对白/格式检查
 严格按以下格式输出（T2VA 模式，无参考图）：
 
 ```
-integrated_multimodal_description: [Shot 1] Live-action, cinematic, [景别] [人物+动作+场景]. [运镜]. [对白].
+integrated_multimodal_description: [Shot 1] AI-generated photorealistic digital-human period drama, cinematic lighting, high contrast, [景别] [人物+动作+场景]. [运镜]. [对白].
 [Shot 2] At 00:02.000, the camera cuts to [景别] [人物+动作]. [运镜]. [对白].
 ...
 
